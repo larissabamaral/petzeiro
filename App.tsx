@@ -4,11 +4,11 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text style={styles.titulo}>Saúde Pet 🐾</Text>
+      <Text style={styles.titulo}>Petzeiro 🐾</Text>
 
-      <text style={styles.descricao}>
+      <Text style={styles.descricao}>
         Gerencie a saúde do seu melhor amigo!
-      </text>
+      </Text>
       <StatusBar style="auto" />
     </View>
   );
