@@ -4,7 +4,7 @@
     "slug": "saude-pet",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/favicon.png",
     "userInterfaceStyle": "light",
     "ios": {
       "supportsTablet": true
@@ -26,6 +26,9 @@
       "eas": {
         "projectId": "846c6340-1645-474f-bf4e-a97624e85807"
       }
-    }
+    },
+    "plugins": [
+      "expo-status-bar"
+    ]
   }
 }
